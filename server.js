@@ -1,5 +1,4 @@
 // server.js
-var http = require('http');
-module.exports = http.createServer(function (req, res) {
-    // ...
-});
+var connect = require('connect');
+var serveStatic = require('serve-static');
+connect().use(serveStatic(__dirname)).listen(4000);
