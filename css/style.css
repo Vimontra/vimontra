@@ -329,7 +329,18 @@ ul.nav li.dropdown a {
 }
 
 .flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
-.flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0.8); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
+.flex-caption {
+
+	/* bottom: 35px;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 25px 25px 25px 30px;
+	width: 295px;
+	*/
+	position: absolute;
+	right: 0;
+	color: #fff;
+	margin: 0;
+}
 .flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
 .flex-caption p {margin: 0 0 15px;}
 
@@ -456,7 +467,7 @@ section.callaction {
 
 /* --- breadcrumbs --- */
 #inner-headline ul.breadcrumb {
-	margin:30px 0 0;
+	margin:15px 0 0;
 	float:left;
 }
 
@@ -847,7 +858,7 @@ footer .widget .social-network {
 /* --- Map --- */
 .map{
 	position:relative;
-	margin-top:-50px;
+	margin-top:20px;
 	margin-bottom:40px;
 }
 
